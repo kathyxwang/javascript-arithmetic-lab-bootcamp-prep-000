@@ -31,4 +31,3 @@ function makeInt(n) {
     return parseInt(n)
   } else return "NaN"
 }
-}
