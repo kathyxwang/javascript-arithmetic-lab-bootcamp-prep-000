@@ -23,13 +23,13 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  if (n.isNan() === true) {
+  if (n.isNan === true) {
     return NaN
   } else return parseInt(n)
 }
 
 function preserveDecimal(n) {
-  if (n.isNan() === true) {
+  if (n.isNan === true) {
     return NaN
   } else return parseFloat(n)
 }
