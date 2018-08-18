@@ -19,7 +19,7 @@ function inc(n) {
 }
 
 function dec(n) {
-  retrurn n--
+  return n--
 }
 
 function makeInt(n) {
@@ -27,5 +27,8 @@ function makeInt(n) {
 }
 
 function makeInt(n) {
-  
+  if (parseInt() === n) {
+    return parseInt(n)
+  } else return "NaN"
+}
 }
