@@ -23,11 +23,14 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt(n)
+  if (n.isNan() === true) {
+    return NaN
+  } else return parseInt(n)
 }
 
-function makeInt(n) {
-  if (parseInt() === n) {
-    return parseInt(n)
-  } else return "NaN"
+function preserveDecimal(n) {
+  if (n.isNan() === true) {
+    return NaN
+  } else return parseFloat(n)
 }
+
